@@ -1,0 +1,25 @@
+.footer_cont {
+    padding: 30px 0px 40px 0px;
+    background: #FAFBFC;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background: #FAFBFC;
+}
+
+.footer a {
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.footer h3 {
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
