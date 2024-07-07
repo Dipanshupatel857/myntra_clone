@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="myntra_logo.webp" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sidebar.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="slider.css">
     <link rel="stylesheet" href="footer.css">
@@ -19,9 +20,99 @@
     <!-- header section -->
 
     <header class="main_head">
+
+        <!-- sidebar menu start -->
+
+        <div class="main_box">
+            <input type="checkbox" id="check">
+            <div class="btn1">
+                <label for="check">
+                    <span class="material-symbols-outlined menu_logo">
+                        menu
+                    </span>
+                </label>
+            </div>
+
+            <div class="sidebar_menu">
+
+                <div class="btn2">
+                    <label for="check"><span class="material-symbols-outlined close_logo">
+                            close
+                        </span></label>
+                </div>
+
+                <div class="sidebar_menu2">
+                    <div class="logo">
+                        <img src="/header main/discount.jpg" alt="">
+                        <a class="log" href="#">Login</a>
+                        <a class="sign" href="#">Sign Up</a>
+                    </div>
+                </div>
+
+                <div class="menu">
+                    <ul>
+                        <li>
+                            Men
+                            <a href="#" class="material-symbols-outlined right_logo">
+                                chevron_right
+                            </a>
+                        </li>
+                        <li>
+                            Women
+                            <a href="#" class="material-symbols-outlined right_logo">
+                                chevron_right
+                            </a>
+                        </li>
+                        <li>
+                            Kids
+                            <a href="#" class="material-symbols-outlined right_logo">
+                                chevron_right
+                            </a>
+                        </li>
+                        <li>
+                            Home & Living
+                            <a href="#" class="material-symbols-outlined right_logo">
+                                chevron_right
+                            </a>
+                        </li>
+                        <li>
+                            Beauty
+                            <a href="#" class="material-symbols-outlined right_logo">
+                                <a href="#" class="material-symbols-outlined right_logo">
+                                    chevron_right
+                                </a>
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+
+                <div class="myntra_support">
+                    <ul>
+                        <li>Myntra Studio <a href="#">NEW</a></li>
+                        <li>Myntra Mall <a href="#">NEW</a></li>
+                        <li>Myntra Insider</li>
+                        <li>Gift Cards</li>
+                        <li>Contact Us</li>
+                        <li>FAQs</li>
+                        <li>Legal</li>
+                    </ul>
+                </div>
+
+                <div class="get_app">
+                    <img src="/footer item/footer image.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- myntra name & logo -->
+
+        <div class="myntra_name">MYNTRA</div>
         <div class="logo">
             <a href="#"><img src="myntra_logo.webp" alt="Myntra logo" class="myntra_logo"></a>
         </div>
+
+        <!-- navigation menu -->
+
         <nav class="nav">
             <a class="men" href="#">MEN</a>
             <a class="women" href="#">WOMEN</a>
@@ -30,10 +121,16 @@
             <a class="beauty" href="#">BEAUTY</a>
             <a class="studio" href="#">STUDIO <sup>NEW</sup></a>
         </nav>
+
+        <!-- search bar -->
+
         <div class="search_bar">
             <span class="material-symbols-outlined search_icon">search</span>
             <input class="search_inp" placeholder="Search for products, brands and more">
         </div>
+
+        <!-- action items -->
+
         <div class="action">
             <div class="action_cont">
                 <span class="material-symbols-outlined action_icon">
@@ -88,6 +185,7 @@
             <span id="btn4"></span>
             <span id="btn5"></span>
         </div>
+
         <div class="category_heading mwb">MEDAL WORTHY BRANDS TO BAG</div>
         <div class="category_items">
             <a href="#"><img class="sale_item" src="/MEDAL WORTHY/1.png" alt=""></a>

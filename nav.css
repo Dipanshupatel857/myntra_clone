@@ -1,5 +1,6 @@
 .nav {
     display: flex;
+    flex-wrap: wrap;
     min-width: 505px;
     justify-content: space-evenly;
 }
@@ -60,7 +61,7 @@
 }
 
 .logo {
-    margin-left: 4%;
+    margin-left: 2%;
 }
 
 .action {
@@ -72,6 +73,7 @@
     min-width: 200px;
     width: 30%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -114,4 +116,55 @@
 
 .action_icon:hover {
     cursor: pointer;
+}
+
+.myntra_name {
+    font-weight: 700;
+    margin-left: 2px;
+    margin-top: 10px;
+}
+
+@media (max-width:600px) {
+
+    .nav,
+    .nav a,
+    .myntra_logo,
+    .banner_container,
+    .indicators {
+        display: none;
+    }
+}
+
+@media(max-width:732px) {
+    .search_bar {
+        display: none;
+    }
+}
+
+@media (max-width:732px) {
+    .action {
+        display: flex;
+        min-width: 150px;
+        justify-content: space-evenly;
+        color: #282c3f;
+        margin-right: 0%;
+    }
+
+}
+
+@media(max-width:600px) {
+    .search_icon {
+        font-size: 10px;
+        height: 10px;
+    }
+}
+
+@media (min-width:600px) {
+    .myntra_name {
+        display: none;
+    }
+
+    .main_box {
+        display: none;
+    }
 }
