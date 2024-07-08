@@ -94,3 +94,20 @@
 #check:checked~.sidebar_menu .btn2 .close_logo {
     opacity: 1;
 }
+
+@media (max-width:600px) {
+    .sidebar_menu {
+        margin-top: -30px;
+        height: 100vh;
+    }
+
+    .logo img {
+        margin-top: -25px;
+        margin-left: -3px;
+        width: 100%;
+    }
+
+    .get_app img {
+        margin-top: 108px;
+    }
+}

@@ -133,3 +133,19 @@ header {
     text-align: center;
     font-weight: bold;
 }
+
+@media (max-width:601px) {
+    .catgry_items {
+        display: ruby-text;
+        margin-left: 3px;
+        animation: 0;
+    }
+
+    .action_name {
+        display: none;
+    }
+
+    .action_cont .profile_icon {
+        display: none;
+    }
+}
