@@ -48,6 +48,10 @@
     cursor: pointer;
 }
 
+.search_logo:hover {
+    cursor: pointer;
+}
+
 .wishlist:hover {
     cursor: pointer;
 }
@@ -166,5 +170,33 @@
 
     .main_box {
         display: none;
+    }
+
+    .action_cont .search_logo {
+        display: none;
+    }
+}
+
+@media (max-width:601px) {
+    .main_head {
+        position: fixed;
+        background-color: rgb(247, 244, 237);
+        width: 100%;
+        margin-top: -70px;
+        height: 60px;
+    }
+}
+
+@media (max-width:400px) {
+    .myntra_name {
+        margin-left: 40px;
+        transition: all 0.3s linear;
+    }
+}
+
+@media (max-width:270px) {
+    .myntra_name {
+        margin-right: -20px;
+        transition: all 0.3s linear;
     }
 }
