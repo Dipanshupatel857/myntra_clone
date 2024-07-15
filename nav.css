@@ -133,7 +133,12 @@
     .nav,
     .nav a,
     .myntra_logo,
-    .banner_container,
+    .banner_container {
+        display: none;
+    }
+}
+
+@media(max-width:1357px) {
     .indicators {
         display: none;
     }
@@ -163,7 +168,7 @@
     }
 }
 
-@media (min-width:600px) {
+@media (min-width:601px) {
     .myntra_name {
         display: none;
     }
@@ -177,7 +182,7 @@
     }
 }
 
-@media (max-width:601px) {
+@media (max-width:600px) {
     .main_head {
         position: fixed;
         background-color: rgb(247, 244, 237);

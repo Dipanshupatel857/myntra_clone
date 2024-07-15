@@ -134,7 +134,7 @@ header {
     font-weight: bold;
 }
 
-@media (max-width:601px) {
+@media (max-width:600px) {
     .catgry_items {
         display: ruby-text;
         margin-left: 3px;
@@ -148,4 +148,12 @@ header {
     .action_cont .profile_icon {
         display: none;
     }
+}
+
+.myntra_support {
+    margin-top: 10px;
+}
+
+hr {
+    margin: 13px 0px 5px 0px;
 }
